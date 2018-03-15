@@ -1,0 +1,13 @@
+{
+"plan":
+ [
+  {"planPrueba":"1",
+   "tipoCuenta":"Cuenta Ahorro",
+   "rut":"1-9",
+   "casos":
+   [
+    {"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"} 
+   ]
+  }
+ ]
+}

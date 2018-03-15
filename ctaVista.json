@@ -1,0 +1,47 @@
+{
+"plan":
+ [
+  {"planPrueba":"1",
+   "tipoCuenta":"Cuenta Vista",
+   "casoOportunidad":
+   [
+    {"accion":"OPORTUNIDAD[anular],PRODUCTO[eliminar]"}
+   ],
+   "rut":"1-9",
+   "casos":
+   [
+    {"valor":"AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar]"}, 
+    {"valor":"PATROCINIO[autorizar],PATROCINIO[autorizar],PREVISADO[en proceso],PREVISADO[descartado],PREVISADO[en proceso],PREVISADO[reparo],PREVISADO[en proceso],PREVISADO[validacion manual],PREVISADO[finalizado]"},
+    {"valor":"PATROCINIO[autorizar],PREVISADO[en proceso],PREVISADO[reparo]"},    
+    {"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"},    
+    {"valor":"PATROCINIO[autorizar],OPORTUNIDAD[anular],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"},
+    {"valor":"PREVISADO[en proceso],PREVISADO[reparo],PREVISADO[en proceso],PREVISADO[descartado],PREVISADO[en proceso],PREVISADO[validacion manual],PREVISADO[finalizado]"},
+    {"valor":"AGRUPAMIENTO[autorizar],AGRUPAMIENTO[anular],AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar],AGRUPAMIENTO[autorizar]"}, 
+    {"valor":"PATROCINIO[autorizar],OPORTUNIDAD[anular],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"},  
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[reparar],REGULARIZAR_REPARO[autorizar],VISAR[autorizar],ORIGINACION[rechazar],VISAR[autorizar],ORIGINACION[autorizar]"},
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[reparar],REGULARIZAR_REPARO[anular]"},
+    
+    {"valor":"PREVISADO[en proceso],PREVISADO[descartado],PREVISADO[en proceso],PREVISADO[reparo],PREVISADO[en proceso],PREVISADO[validacion manual],PREVISADO[finalizado]"},
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[reparar],REGULARIZAR_REPARO[autorizar],VISAR[autorizar],ORIGINACION[rechazar],VISAR[autorizar],ORIGINACION[autorizar]"},   
+    {"valor":"PEP[autorizar],OPORTUNIDAD[anular],CUMPLIMIENTO[autorizar],VISAR[autorizar]"},
+    {"valor":"PEP[autorizar],PRODUCTO[eliminar],CUMPLIMIENTO[autorizar],VISAR[autorizar]"},
+    {"valor":"PEP[autorizar],OPORTUNIDAD[anular],CUMPLIMIENTO[autorizar],VISAR[autorizar]"},
+    
+    {"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"},
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[anular]"},
+    {"valor":"PATROCINIO[reparar],PRODUCTO[anular]"},
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[reparar],REGULARIZAR_REPARO[anular]"},
+	{"valor":"PATROCINIO[rechazar]"},
+	{"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar]"},
+	{"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[rechazar]"},
+	{"valor":"PATROCINIO[reparar],PRODUCTO[eliminar]"},
+    {"valor":"PRODUCTO[eliminar],PATROCINIO[reparar]"},
+    {"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[rechazar]"},
+	{"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar],ORIGINACION[rechazar],VISAR[autorizar],ORIGINACION[autorizar]"},
+	{"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[reparar],REGULARIZAR_REPARO[autorizar],VISAR[autorizar],ORIGINACION[autorizar]"},
+    {"valor":"PATROCINIO[reparar],REGULARIZAR_REPARO[enviarascoring],PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[reparar],REGULARIZAR_REPARO[autorizar],VISAR[autorizar],ORIGINACION[rechazar],VISAR[autorizar],ORIGINACION[autorizar]"},
+    {"valor":"PATROCINIO[autorizar],CUMPLIMIENTO[autorizar],PEP[autorizar],VISAR[autorizar],ORIGINACION[autorizar],OPORTUNIDAD[anular]"}      
+   ]
+  }
+ ]
+}
